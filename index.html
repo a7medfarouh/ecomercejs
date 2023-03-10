@@ -1,0 +1,76 @@
+
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawsome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+      <!-- link bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- link  css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title> Products </title>
+</head>
+<body>
+    <!-- start navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
+        <div class="container fs-5">
+          <a class="navbar-brand" href="#">App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link home active" aria-current="page" href="#">Home</a>
+              </li>
+             
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  products
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="cart" ><a class="dropdown-item fs-4" href="#">add cart  <i class="fa-solid fa-cart-shopping position-relative"></i> <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="counter"></span> </a></li>
+                 
+                </ul>
+              </li>
+              
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar  -->
+      
+      <!-- start main data  -->
+      <main class="m-5"  id="maincontainer">
+        <div class="container mt-5">
+            <div class="row g-5 " id="rowData">
+               
+                
+            </div>
+        </div>
+
+      </main>
+       <!-- end main data  -->
+<!-- start main data  -->
+<view class="m-5 d-none" id="viewcontainer" >
+    <div class="container mt-5">
+        <div class="row g-5  " id="viewData">
+           
+            
+        </div>
+    </div>
+
+  </view>
+   <!-- end main data  -->
+
+
+      <!-- link bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+     <!-- link  js -->
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
